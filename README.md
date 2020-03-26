@@ -2,6 +2,8 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/nodeshift-starters/nodejs-messaging-work-queue-redhat.svg)](https://greenkeeper.io/)
 
+https://access.redhat.com/documentation/en-us/red_hat_build_of_node.js/
+
 ## Purpose
 
 This example application demonstrates how to dispatch tasks to a scalable
