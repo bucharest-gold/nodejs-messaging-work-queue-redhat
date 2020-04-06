@@ -54,7 +54,7 @@
     "express": "~4.17.1",
     "kube-probe": "~0.3.2",
     "license-reporter": "~1.2.2",
-    "rhea": "^1.0.0"
+    "rhea": "^1.0.19"
   },
   "devDependencies": {
     "nodeshift": "~4.1.0",
