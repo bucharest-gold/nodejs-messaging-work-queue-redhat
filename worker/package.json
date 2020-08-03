@@ -58,6 +58,6 @@
   },
   "devDependencies": {
     "nodeshift": "~6.0.2",
-    "xo": "~0.25.3"
+    "xo": "^0.32.1"
   }
 }
