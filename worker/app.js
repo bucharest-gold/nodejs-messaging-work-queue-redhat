@@ -32,8 +32,8 @@ const amqpPassword = process.env.MESSAGING_SERVICE_PASSWORD || 'work-queue';
 
 // AMQP
 
-const id = 'worker-nodejs-' + crypto.randomBytes(2).toString('hex');
-const container = rhea.create_container({id});
+const id = `worker-nodejs-${crypto.randomBytes(2).toString('hex')}`;
+const container = rhea.create_container({ id });
 
 let workerUpdateSender = null;
 let requestsProcessed = 0;
@@ -49,7 +49,7 @@ function processRequest (request) {
   }
 
   if (reverse) {
-    text = text.split("").reverse().join("");
+    text = text.split('').reverse().join('');
   }
 
   return text;
